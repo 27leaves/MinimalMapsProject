@@ -64,7 +64,7 @@ export default class ShopMap extends React.PureComponent {
         style={styles.map}
         showsUserLocation={this.state.hasLocationPermissions}
         onUserLocationChange={location => {
-          console.log('changed user location', location);
+          //   console.log('changed user location', location);
         }}
         onMapReady={() => {}}
       />
